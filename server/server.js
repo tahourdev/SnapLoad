@@ -11,7 +11,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: '3001', // Replace with your client's origin
+    origin: 'https://snaploading.vercel.app/', // Replace with your client's origin
     methods: 'GET',
     optionsSuccessStatus: 204,
   })
