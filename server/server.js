@@ -11,7 +11,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: 'https://snaploading.vercel.app/', // Replace with your client's origin
+    origin: 'http://localhost:3001', // Replace with your client's origin
     methods: 'GET',
     optionsSuccessStatus: 204,
   })
@@ -188,6 +188,11 @@ app.get('/process-video', async (req, res) => {
     res.status(500).send('Error processing the video');
   }
 });
+
+app.get('/', (req, res) => {
+  res.send('Server is running.');
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
