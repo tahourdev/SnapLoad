@@ -1,0 +1,14 @@
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+.custom-arrow {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 1.5rem;
+  pointer-events: none;
+}

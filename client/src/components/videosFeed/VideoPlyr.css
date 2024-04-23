@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/* VideoPlayerPlr.css */
+/* Custom Plyr styles */
+:root {
+  --plyr-color-main: #00b3ff; /* Set primary UI color to red */
+  /* --plyr-progress-loading-size: 40px; */
+  --plyr-menu-item-arrow-size: 5px; /* */
+  --plyr-menu-background: white; /* */
+  --plyr-menu-color: #4a5464; /* */
+  --plyr-menu-radius: 4px; /* */
+  --plyr-menu-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); /* */
+  --plyr-menu-arrow-size: 5px; /* */
+  --plyr-font-size-menu: 10px; /* */
+  --plyr-control-radius: 3px; /* */
+  --plyr-control-spacing: 5px; /* */
+  --plyr-control-padding: 10px; /* */
+  --plyr-control-icon-size: 12px; /* */
+  --plyr-badge-background: red; /* */
+  /* --plyr-video-background: blue; */
+  --plyr-control-toggle-checked-background: #00b3ff; /* */
+  --plyr-video-controls-background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)); /* */
+  --plyr-video-control-color: #ffffff; /* */
+  --plyr-video-control-color-hover: #ffffff; /* */
+  --plyr-audio-controls-background: red; /* */
+  --plyr-audio-control-color: green; /* */
+  --plyr-font-size-base: 10px; /* */
+  --plyr-font-size-time: 10px; /* */
+  --plyr-video-progress-buffered-background: rgba(255, 255, 255, 0.25); /* */
+  /* --plyr-audio-progress-buffered-background: rgba(0, 110, 255, 0.6); */
+  --plyr-range-thumb-height: 10px; /* */
+  --plyr-range-thumb-background: white; /* */
+  --plyr-range-thumb-active-shadow-width: 3px; /* */
+  --plyr-range-track-height: 4px; /*The height of the scrubber/progress track.*/
+  --plyr-range-fill-background: #00b3ff;
+  --plyr-video-range-track-background: rgba(255, 255, 255, 0.25);
+  /* --plyr-audio-range-track-background: red; */
+  /* --plyr-tooltip-color: red; */
+}
+
+.plyr__volume input[type="range"] {
+  max-width: 60px;
+}
+
+/* ================for react plyr================  */
+
+body {
+  font-family: "inter", sans-serif;
+}
